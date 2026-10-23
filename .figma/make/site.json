@@ -1,0 +1,10 @@
+{
+  "description": "Showcases a premium, interactive portfolio for a UI/UX and brand designer, highlighting creative projects with sophisticated storytelling and design.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
