@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, type MouseEvent as ReactMouseEvent } from "react";
-import turaki from "./image/turaki.jpg";
+
 import turaki1 from "./image/turaki1.jpg";
+import turaki from "./image/turaki.jpg";
 
 type Project = {
   id: string;
@@ -296,14 +297,14 @@ function App() {
             
               
             <div ref={heroVisualRef} className="hero-composition">
-              <div className="visual-frame">
-                <img src="/src/image/turaki.jpg" alt="turaki image" />
-                <span className="visual-noise" />
-                <span className="visual-type">.</span>
-                <span className="visual-orbit" />
-                <span className="visual-panel">FORM<br />+ FUNCTION</span>
-                <span className="visual-code">8.993° N<br />7.456° E</span>
-              </div>
+           <div className="visual-frame">
+  <img src={turaki} alt="Turaki image" />
+  <span className="visual-noise" />
+  <span className="visual-type">.</span>
+  <span className="visual-orbit" />
+  <span className="visual-panel">FORM<br />+ FUNCTION</span>
+  <span className="visual-code">8.993° N<br />7.456° E</span>
+</div>
               </div>
             </div>
           </div>
@@ -391,7 +392,7 @@ function App() {
             <em>LOOK, FEEL AND WORK.</em>
           </h2>
           <div className="about-body reveal">
-            <div className="about-monogram"> <img src="/src/image/turaki1.jpg" alt="turaki image" /></div>
+            <div className="about-monogram"> <img src={turaki1} alt="Turaki image" /></div>
             <p>I&apos;m Muhammad Yunusa, a UI/UX and brand designer from Nigeria with over four years of experience creating digital experiences, websites and visual identities. I enjoy transforming complex ideas into simple, expressive and memorable design systems.</p>
           </div>
           <div className="stats reveal">
