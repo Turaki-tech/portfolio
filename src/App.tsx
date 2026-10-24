@@ -1,4 +1,6 @@
 import { useEffect, useRef, useState, type MouseEvent as ReactMouseEvent } from "react";
+import turaki from "./image/turaki.jpg";
+import turaki1 from "./image/turaki1.jpg";
 
 type Project = {
   id: string;
@@ -291,6 +293,7 @@ function App() {
               <p><em>i'm Muhammad Yunusa</em> and i'm What you'd called a digital handymam.</p>
               <div className="hero-actions">
 
+            
               
             <div ref={heroVisualRef} className="hero-composition">
               <div className="visual-frame">
